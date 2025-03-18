@@ -35,7 +35,13 @@ php artisan migrate
 php artisan db:seed
 ```
 
-7. Run project
+7. Render app key
+
+```bash
+php artisan key:generate
+```
+
+8. Run project
 
 ```bash
 npm run dev
